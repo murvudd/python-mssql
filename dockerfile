@@ -15,11 +15,11 @@ RUN bash -c 'ln -s /usr/bin/pip3 /usr/bin/pip'
 #ENV PATH="$PATH:/usr/bin/pip"
 
 # Print python and pip version
-RUN bash -c 'which python'
-RUN bash -c 'which pip'
-RUN bash -c 'echo $PATH'
-RUN bash -c 'python -V'
-RUN bash -c 'pip -V'
+#RUN bash -c 'which python'
+#RUN bash -c 'which pip'
+#RUN bash -c 'echo $PATH'
+#RUN bash -c 'python -V'
+#RUN bash -c 'pip -V'
 
 #CMD ["python"]
 #CMD ["/bin/sh -c /bin/bash"]
