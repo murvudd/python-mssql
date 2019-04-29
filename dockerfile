@@ -22,4 +22,4 @@ RUN bash -c 'python -V'
 RUN bash -c 'pip -V'
 
 #CMD ["python"]
-CMD ["/bin/sh -c /bin/bash"]
+#CMD ["/bin/sh -c /bin/bash"]
