@@ -19,11 +19,11 @@ RUN bash -c 'pip install --upgrade pip'
 ENV PATH="$PATH:/usr/bin/python"
 ENV PATH="$PATH:/usr/bin/pip"
 
-#ADD . /opt/src/pymssql/
 
-#RUN pip install Cython
+RUN pip install Cython
+#ADD . /opt/src/pymssql/
 #RUN pip install /opt/src/pymssql
-#RUN pip install pymssql
+RUN pip install pymssql
 
 #CMD ["python"]
 #CMD ["/bin/sh -c /bin/bash"]
