@@ -18,7 +18,6 @@ RUN bash -c 'pip install --upgrade pip'
 
 ENV PATH="$PATH:/usr/bin/python"
 ENV PATH="$PATH:/usr/bin/pip"
-ENV PATH="$PATH:/opt/mssql-tools/bin"
 
 #ADD . /opt/src/pymssql/
 
