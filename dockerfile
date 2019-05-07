@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/mssql-tools:latest
 #
-RUN apt update && apt install -y python3.5 python3-pip \
+RUN apt update && apt install -y python3.5 python3-pip
 #    freetds-bin \
 #    freetds-common \
 #    freetds-dev
